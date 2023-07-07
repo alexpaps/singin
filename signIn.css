@@ -1,15 +1,15 @@
+
 html, body {
   height: 100%;
-  margin: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .constraint-layout {
-  width: 300px;
+  width: 200px;
   height: 200px;
-  /* background-color: #FFFFFF; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +40,7 @@ input[type="password"] {
   border-left: none;
   border-right: none;
   border-top: none;
-  /* border:none ; */
+ 
 }
 
 .button {
@@ -60,3 +60,4 @@ button {
   margin-bottom: 18px;
   color: blue;
 }
+
