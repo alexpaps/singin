@@ -60,11 +60,3 @@ button {
   margin-bottom: 18px;
   color: blue;
 }
-
-/* Media Query for Mobile Devices */
-@media (max-width: 480px) {
-  .constraint-layout {
-      width: 80%;
-      height: auto;
-  }
-}
