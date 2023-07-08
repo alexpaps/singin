@@ -1,19 +1,29 @@
 
-html, body {
-  height: 100%;
-  width: 100%;
+.constraint-layout2{
+  width: 600px;
+  height: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.constraint-layout {
-  width: 200px;
-  height: 200px;
+.constraint-layout3{
+  width: 100px;
+  height: 0px;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   justify-content: center;
+  text-align: center;
   align-items: center;
+}
+
+.change-nav-js{
+  display: grid;
+}
+
+.inline-div {
+  display: inline-block;
+  width: 100%; /* Adjust the width as needed */
+  box-sizing: border-box;
 }
 
 .login{
@@ -51,7 +61,21 @@ input[type="password"] {
 
 button {
   padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.forgot-password-js{
+  text-align: left;
+  color: #4000ff;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.register-js{
+  color: #4000ff;
   cursor: pointer;
 }
 
@@ -61,3 +85,45 @@ button {
   color: blue;
 }
 
+@media only screen and (max-width: 500px) {
+  html {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    height: 70%;
+    width: 70%;
+    font-size:medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .constraint-layout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .constraint-layout {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+}
