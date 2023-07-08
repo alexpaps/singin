@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Android Layout</title>
+    <title>Log In fragment</title>
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="signIn.css">
 </head>
 <body>
     <div class="constraint-layout">
+
         <h1 class="login">Login</h1>
+
         <div class="text-view">
-            <label for="Name" id="nameView">Name</label>
+            <label for="Email" id="emailView">Email</label>
         </div>
+
         <div class="edit-text">
-            <input type="text" id="Name" class="input-js" placeholder="Name" />
+            <input type="text" id="Email" class="input-js" placeholder="Email" />
         </div>
+
         <div class="text-view">
           <label for="Password">Password</label>
         </div>
+
         <div class="edit-text">
             <input type="password" id="Password" class="input-js" placeholder="Password" />
         </div>
+        
+        <div class="forgot-password-js">Forgot Password?</div>
+
         <div class="button">
-            <button id="DoneButton">Done</button>
+            <button id="DoneButton">Login</button>
+        </div>
+
+        <div class="constraint-layout2">
+            <div >Don't have an account?</div>
+            <a href="register.html">Register</a>
         </div>
     </div>
-        <script src="signIn.js"></script>
+        <script  src="signIn.js"></script>
 </body>
 </html>
